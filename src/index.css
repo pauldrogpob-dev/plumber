@@ -19,13 +19,6 @@
   --color-neutral-700: #404040;
   --color-neutral-800: #262626;
   --color-neutral-900: #171717;
-
-  /* Premium Background Theme Tokens */
-  --color-bg-base-light: #F8FAFC;
-  --color-bg-base-dark: #0F172A;
-  --color-glow-blue: rgba(30, 64, 175, 0.06);
-  --color-glow-amber: rgba(245, 158, 11, 0.04);
-  --color-glow-slate: rgba(148, 163, 184, 0.03);
 }
 
 @layer base {
