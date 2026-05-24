@@ -103,7 +103,7 @@ function App() {
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               Pittsburgh's Trusted Plumber{' '}
-              <span className="text-[#1E40AF]">for 40+ Years</span>
+              <span className="text-[#1E40AF]">for 50+ Years</span>
             </motion.h1>
 
             <motion.p
@@ -444,9 +444,20 @@ function App() {
             </div>
           </div>
 
-          <div className="mt-8 pt-8 border-t border-neutral-800 text-center">
+          <div className="mt-8 pt-8 border-t border-neutral-800 text-center flex flex-col sm:flex-row items-center justify-between gap-4">
             <p className="text-neutral-500 text-sm">
-              WJ McNabb Plumbing | Pittsburgh, PA | (412) 388-2512
+              &copy; {new Date().getFullYear()} WJ McNabb Plumbing | Pittsburgh, PA | (412) 388-2512
+            </p>
+            <p className="text-neutral-500 text-sm">
+              Website &amp; Digital Marketing by{' '}
+              <a
+                href="https://vinnovia.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-neutral-400 hover:text-white transition-colors underline decoration-dotted font-medium"
+              >
+                VINNOVIA
+              </a>
             </p>
           </div>
         </div>
